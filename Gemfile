@@ -6,9 +6,13 @@ ruby '3.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 # Added gems
+# Authentication system
 gem 'devise'
+# Styling
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views', '~> 1.1'
+# Online payments
+gem 'stripe', '~> 5.34'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
