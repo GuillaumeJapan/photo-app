@@ -27,6 +27,8 @@
     <%= f.password_field :password_confirmation, autocomplete: 'current-password', class: 'form-control' %>
   </div>
 
+  <%# Comment the payment part for tests %>
+  <% if false %>
   <%= fields_for( :payment ) do |p| %>
     <div class="row col-md-12">
       <div class="form-group col-md-4 no-left-padding">
@@ -57,6 +59,7 @@
         </div>
       </div>
     </div>
+  <% end %>
   <% end %>
 
   <div class="form-group">
